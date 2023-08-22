@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./W3.CSS Template_files/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./colors.css">
+    <title>Social Media</title>
+</head>
+<body>
+    <!-- Navbar-->
+    <div class="navbar text-align top" id="myNavbar">
+        <div class="left "> 
+            <a href="" class="bar-item button large"><i class="fa fa-home"></i> Logo</a>
+            <a href="" class="bar-item button large"><i class="fa fa-globe"></i></a>
+            <a href="" class="bar-item button large"><i class="fa fa-user"></i></a>
+            <a href="" class="bar-item button large"><i class="fa fa-envelope"></i></a>
+            <div class="dropdown hide-small">
+                <button class=" dropbtn bar-item button-1 large"><i class="fa fa-bell"></i><span class="badge right green">3</span></button>
+                <div class="dropdown-content card-4" style="width: 300px;">
+                    <a href="https://www.w3schools.com/w3css/tryw3css_templates_social.htm#" class="bar-item button-1">One new friend request</a>
+                    <a href="https://www.w3schools.com/w3css/tryw3css_templates_social.htm#" class="bar-item button-1">John Doe posted on your wall</a>
+                    <a href="https://www.w3schools.com/w3css/tryw3css_templates_social.htm#" class="bar-item button-1">Jane likes your post</a>              
+                </div>
+            </div>
+            <a href="#" class="bar-item button large icon" onclick="smallScreens()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <a href="" class="bar-item right button large">
+            <img src="./image/avatar2.png" alt="" style="height: 20px;width: 23px;" class="circle">
+        </a>
+
+    </div>
+      <!-- Navbar on small screens -->
+    <div id="smallScreen" class="dropdown-content small-drop">
+        <a href="https://www.w3schools.com/w3css/tryw3css_templates_social.htm#" class="bar-item buttonx padding-large">Link 1</a>
+        <a href="https://www.w3schools.com/w3css/tryw3css_templates_social.htm#" class="bar-item buttonx padding-large">Link 2</a>
+        <a href="https://www.w3schools.com/w3css/tryw3css_templates_social.htm#" class="bar-item buttonx padding-large">Link 3</a>
+        <a href="https://www.w3schools.com/w3css/tryw3css_templates_social.htm#" class="bar-item buttonx padding-large">My Profile</a>
+    </div>
+  
+    
+    <!-- Page Container -->
+    <div class="container flex margin-top-max">
+
+        <!-- Left -->
+        <div class="col-left">
+
+            <!-- Profile -->
+            <div class="card container">
+                <p class="center" style="font-size: 24px;">My Profile</p>
+                <p><img src="./image/avatar3.png" alt="" style="height: 106px;width: 106px;" class="circle center-pix"></p>
+                <hr class="primary-color">
+                <p style="margin-top: 20px;"><i class="fa fa-pencil margin-right primary-color"></i> Designer, UI</p>
+                <p><i class="fa fa-home margin-right primary-color"></i> London, UK</p>
+                <p><i class="fa fa-birthday-cake margin-right primary-color"></i> April 1, 1988</p>
+            </div>
+            <br>
+            <!-- Accordion -->
+            <div class="card">
+                <button onclick="" class="buttonx left-align"><i class="fa fa-circle-o-notch margin-right"></i> My Groups</button>
+                <div class="hide">
+                    <p>Some texts...</p>
+                </div>
+                <button onclick="myFunction" class="buttonx left-align"><i class="fa fa-calendar-check-o margin-right"></i> My Events</button>
+                <div class="container" id="demo2" style="display: none;">
+                    <p>Some other texts...</p>
+                </div>
+                <button onclick="myFunction()" class="buttonx left-align"><i class="fa fa-user margin-right"></i> My Photos</button>
+                <div class="card container" id="demo3" style="display: none;">
+                    <div class="flex">
+                        <div tyle="margin-right: 8px;" class="margin">
+                            <img src="./image/lights.jpg" style="width: 100%;" alt="" class="margin-top">
+                        </div>
+                        <div tyle="margin-left: 8px;" class="margin">
+                            <img src="./image/nature.jpg" style="width: 100%;" alt="" class="margin-top">
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div tyle="margin-right: 8px;" class="margin">
+                            <img src="./image/mountains.jpg" style="width: 100%;" alt="">
+                        </div>
+                        <div tyle="margin-left: 8px;" class="margin">
+                            <img src="./image/forest.jpg" style="width: 100%;" alt="">
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div tyle="margin-right: 8px;" class="margin">
+                            <img src="./image/nature.jpg" style="width: 100%;" alt="" class="margin-bottom">
+                        </div>
+                        <div tyle="margin-left: 8px;" class="margin">
+                            <img src="./image/snow.jpg" style="width: 100%;" alt="" class="margin-bottom">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- Interests -->
+            <div class="card container">
+                <p class="">Interests</p>
+                <p>
+                    <span class="tag small theme-d5">News</span>
+                    <span class="tag small theme-d4">W3Schools</span>
+                    <span class="tag small theme-d3">Labels</span>
+                    <span class="tag small theme-d2">Games</span>
+                    <span class="tag small theme-d1">Friends</span>
+                    <span class="tag small theme-l1">Games</span>
+                    <span class="tag small theme-l2">Friends</span>
+                    <span class="tag small theme-l3">Food</span>
+                    <span class="tag small theme-l4">Design</span>
+                    <span class="tag small theme-l5">Art</span>
+                    <span class="tag small theme-l5">Photos</span>
+                </p>
+            </div>
+            <br>
+            <!-- Alert Box -->
+            <div class="card container margin-bottom">
+                <span onclick="this.parentElement.style.display='none'" class="right">
+                    <i class="fa fa-remove button"></i>
+                </span>
+                <p><strong>Hey!</strong></p>
+                <p>People are looking at your profile. Find out who.</p>
+            </div>
+
+            <!-- End of Left-->
+        </div>
+        <br>
+
+        <!-- Middle -->
+        <div class="col-middle">
+
+            <!-- Post Status -->
+            <div class="card container padding">
+                <h5 class="large">Social Media Template</h5>
+                <p contenteditable="true" class="padding border">What's on your mind</p>
+                <button type="button" class="button-1 padding"><i class="fa fa-pencil"></i>  Post</button>
+            </div>
+            <br>
+            <!-- Post Feeds -->
+            <div class="card container">
+                <p>
+                    <img src="./image/avatar3.png" alt=""  style="width: 60px;" class="circle margin-right">
+                    <span>John Doe</span>
+                    <span class="right">1 min</span>
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="flex margin-bottom">
+                    <div class="margin">
+                        <img src="./image/lights.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="margin">
+                        <img src="./image/nature.jpg" alt="" style="width: 100%;">
+                    </div>
+                </div>
+                <button type="button" class="button-1 theme-d1 margin-bottom"><i class="fa fa-thumbs-up"></i> Like</button>
+                <button type="button" class="button-1 theme-d1 margin-bottom"><i class="fa fa-comment"></i> Comment</button>
+            </div>
+            <br>
+            <div class="card container">
+                <p>
+                    <img src="./image/avatar5.png" alt="" style="width: 60px;" class="circle margin-right">
+                    <span>Jane Doe</span>
+                    <span class="right">16 min</span>
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <button type="button" class="button-1 theme-d1 margin-bottom"><i class="fa fa-thumbs-up"></i> Like</button>
+                <button type="button" class="button-1 theme-d1 margin-bottom"><i class="fa fa-comment"></i> Comment</button>
+            </div>
+            <br>
+            <div class="card container">
+                <p>
+                    <img src="./image/avatar2.png" alt="" style="width: 60px;" class="circle margin-right">
+                    <span>Angie Jane</span>
+                    <span class="right">32 min</span>
+                </p>
+                <p>Have you see this?</p>
+                <div>
+                    <img src="./image/lights.jpg" alt="" class="margin-bottom" style="width: 100%;">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                
+                <button type="button" class="button-1 theme-d1 margin-bottom"><i class="fa fa-thumbs-up"></i> Like</button>
+                <button type="button" class="button-1 theme-d1 margin-bottom"><i class="fa fa-comments"></i> Comment</button>
+            </div>
+
+            <!-- End of Middle-->
+        </div>
+        <br>
+
+        <!-- Right -->
+        <div class="col-right">
+            <div class="card container">
+                <p>Upcoming Events:</p>
+                <img src="./image/forest.jpg" alt="" style="width: 100%;">
+                <p class="center"><strong>Holiday</strong></p>
+                <p class="center">Friday 15:00</p>
+                <button type="button" class="buttonx margin-bottom">Info</button>
+            </div>
+            <br>
+            <div class="card container center">
+                <p class="center">Friend Request</p>
+                <img src="./image/avatar6.png" alt="" style="width: 50%;"><br>
+                <p>Jane Doe</p>
+                <div class="flex">
+                    <button type="button" class="button-1 green margin-bottom" style="width: 50%;"><i class="fa fa-check"></i></button>
+                    <button type="button" class="button-1 red margin-bottom" style="width: 50%;"><i class="fa fa-remove"></i></button>
+                </div>
+            </div>
+            <br>
+            <div class="card container center" style="padding: 32px 0 !important;">
+                <p>ADS</p>
+            </div>
+            <br>
+            <div class="card container center" style="padding: 32px 0 !important;">
+                <p><i class="fa fa-bug xlarge"></i></p>
+            </div>
+
+            <!-- End of Right -->    
+        </div>
+    </div>
+    <br>
+    <!-- Footer -->
+    <footer class="container padding-16 theme-d3">
+        <h5>Footer</h5>
+    </footer>
+
+    <footer class="container theme-d5">
+        <p>Powered by <a href="http://" target="_blank" rel="noopener noreferrer" class="white-a">Kayode.org</a></p>
+
+    </footer>
+
+    <!-- Javascript -->
+    <script>
+        // Accordion
+        function myFunction() {
+            var x = document.getElementById("demo3")
+            if (x.style.display === "none") {
+                x.style.display = "block"
+            } else {
+                x.style.display = "none"
+            }
+        }
+        function smallScreens() {
+            document.getElementById("smallScreen").classList.toggle("show");
+            
+        }
+    </script>
+</body>
+</html>
